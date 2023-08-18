@@ -1,3 +1,9 @@
+fn first_word(s: &String) {
+    let bytes = s.as_bytes();
+    println!("{:?}",bytes);
+}
+
 fn main() {
-    println!("Hello, world!");
+    let text = String::from("abcd ");
+    first_word(&text);
 }
